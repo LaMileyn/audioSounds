@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #07071d;
+}
+.keys{
+    display: flex;
+    margin: 0 auto;
+    width: 1200px;
+    max-width: 75%;
+
+}
+.key{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+    margin: 0 15px;
+    padding: 10px 0;
+    transition: all 0.04s ease-in-out;
+}
+.key kbd{
+    font-size: 45px;
+}
+.key span{
+    color: gold;
+}
+.playing{
+    transform: scale(1.1);
+    border-color: gold;
+    box-shadow: 0 0 10px #ffc600;
+}
